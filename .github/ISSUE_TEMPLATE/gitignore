@@ -1,0 +1,25 @@
+# 依赖的虚拟环境目录
+venv/
+env/
+.venv/
+
+# IDE配置目录（如PyCharm）
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 编译后的Python文件
+__pycache__/
+*.pyc
+
+# 模型检查点、大型数据集（千万不要传！）
+checkpoint/
+data/
+*.pth
+*.pt
